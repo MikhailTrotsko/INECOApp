@@ -1,0 +1,6 @@
+framework module Pods_INECOApp {
+  umbrella header "Pods-INECOApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_INECOAppTests {
+  umbrella header "Pods-INECOAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

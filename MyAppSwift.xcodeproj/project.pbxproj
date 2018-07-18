@@ -1,0 +1,1554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B109B442077A24D00BD2EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B109B432077A24D00BD2EDB /* AppDelegate.swift */; };
+		2B109B492077A24D00BD2EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B109B472077A24D00BD2EDB /* Main.storyboard */; };
+		2B109B4B2077A24D00BD2EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B109B4A2077A24D00BD2EDB /* Assets.xcassets */; };
+		2B109B4E2077A24D00BD2EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B109B4C2077A24D00BD2EDB /* LaunchScreen.storyboard */; };
+		2B109B592077A24D00BD2EDB /* INECOAppests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B109B582077A24D00BD2EDB /* INECOAppests.swift */; };
+		2B109B642077A24D00BD2EDB /* INECOAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B109B632077A24D00BD2EDB /* INECOAppUITests.swift */; };
+		2B62B50020B865FD00F238EB /* INFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B62B4FF20B865FD00F238EB /* INFViewController.swift */; };
+		2B92C6A620B58E9400302CC3 /* REALM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B55FAC92092E289009297BC /* REALM.swift */; };
+		2B9D959E20B93A2E004441FB /* STRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D959D20B93A2E004441FB /* STRViewController.swift */; };
+		2B9D95A020B93A36004441FB /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D959F20B93A36004441FB /* DataTableViewCell.swift */; };
+		2B9D95A220B93A3E004441FB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D95A120B93A3E004441FB /* DetailViewController.swift */; };
+		2BA06BEE20B699F400E1C0E0 /* HotTourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA06BED20B699F400E1C0E0 /* HotTourTableViewCell.swift */; };
+		2BA06BF020B69B6900E1C0E0 /* HotTourTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA06BEF20B69B6900E1C0E0 /* HotTourTableViewController.swift */; };
+		2BA72A81208AF60E00520BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA72A80208AF60E00520BF5 /* ViewController.swift */; };
+		2BE648C120BADD8C00F6C70B /* HotTourDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE648C020BADD8C00F6C70B /* HotTourDetailViewController.swift */; };
+		2BE648C320BAEF2000F6C70B /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE648C220BAEF2000F6C70B /* webViewController.swift */; };
+		2BF04807207DC023001B16B5 /* Pods_INECOApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB2A16E7182012A9910B63 /* Pods_INECOApp.framework */; };
+		2BF0481A207DC026001B16B5 /* Pods_INECOApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB2A16E7182012A9910B63 /* Pods_INECOApp.framework */; };
+		2BF0482D207DC027001B16B5 /* Pods_INECOApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB2A16E7182012A9910B63 /* Pods_INECOApp.framework */; };
+		2BF04840207DC027001B16B5 /* Pods_INECOApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB2A16E7182012A9910B63 /* Pods_INECOApp.framework */; };
+		2D69D92592FDF31E090EE3F3 /* Pods_INECOAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7422579985850131DF44948 /* Pods_INECOAppTests.framework */; };
+		B57BCF3E7CB0F9B1E30C5ED3 /* Pods_INECOAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8D98F670765504A5CE49C4 /* Pods_INECOAppUITests.framework */; };
+		CF3100E92F463A5A5BD54296 /* Pods_INECOApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB2A16E7182012A9910B63 /* Pods_INECOApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B109B552077A24D00BD2EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B109B382077A24D00BD2EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B109B3F2077A24D00BD2EDB;
+			remoteInfo = MyAppSwift;
+		};
+		2B109B602077A24D00BD2EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B109B382077A24D00BD2EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B109B3F2077A24D00BD2EDB;
+			remoteInfo = MyAppSwift;
+		};
+		2B5C48F5208B5FCB0018DC04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B109B382077A24D00BD2EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B109B3F2077A24D00BD2EDB;
+			remoteInfo = INECOApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B7F1338207D091B00D9D126 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0480C207DC023001B16B5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0481F207DC026001B16B5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF04832207DC027001B16B5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF04845207DC027001B16B5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		069B0E8BF4A756656C04A47B /* Pods-INECOAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INECOAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-INECOAppTests/Pods-INECOAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A8D98F670765504A5CE49C4 /* Pods_INECOAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INECOAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B109B402077A24D00BD2EDB /* INECOApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INECOApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B109B432077A24D00BD2EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B109B482077A24D00BD2EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B109B4A2077A24D00BD2EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B109B4D2077A24D00BD2EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B109B4F2077A24D00BD2EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B109B542077A24D00BD2EDB /* INECOAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INECOAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B109B582077A24D00BD2EDB /* INECOAppests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INECOAppests.swift; sourceTree = "<group>"; };
+		2B109B5A2077A24D00BD2EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B109B5F2077A24D00BD2EDB /* INECOAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INECOAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B109B632077A24D00BD2EDB /* INECOAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INECOAppUITests.swift; sourceTree = "<group>"; };
+		2B109B652077A24D00BD2EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B55FAC92092E289009297BC /* REALM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REALM.swift; sourceTree = "<group>"; };
+		2B5C48F0208B5FCB0018DC04 /* INECOAppUNITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INECOAppUNITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B62B4FF20B865FD00F238EB /* INFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFViewController.swift; sourceTree = "<group>"; };
+		2B9D959D20B93A2E004441FB /* STRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STRViewController.swift; sourceTree = "<group>"; };
+		2B9D959F20B93A36004441FB /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		2B9D95A120B93A3E004441FB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2BA06BED20B699F400E1C0E0 /* HotTourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotTourTableViewCell.swift; sourceTree = "<group>"; };
+		2BA06BEF20B69B6900E1C0E0 /* HotTourTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotTourTableViewController.swift; sourceTree = "<group>"; };
+		2BA72A80208AF60E00520BF5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BE648C020BADD8C00F6C70B /* HotTourDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotTourDetailViewController.swift; sourceTree = "<group>"; };
+		2BE648C220BAEF2000F6C70B /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		2BF04812207DC023001B16B5 /* INECOApp copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INECOApp copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF04813207DC024001B16B5 /* INECOApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "INECOApp copy-Info.plist"; path = "/Users/tanya/Desktop/проект/INECOApp/INECOApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		2BF04825207DC026001B16B5 /* INECOApp copy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INECOApp copy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF04838207DC027001B16B5 /* INECOApp copy copy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INECOApp copy copy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF0484B207DC027001B16B5 /* INECOApp copy copy copy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INECOApp copy copy copy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EEE1F55286BAC84144F556 /* Pods-INECOAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INECOAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-INECOAppUITests/Pods-INECOAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD4BB6901EED4C0957E3C47 /* Pods-INECOAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INECOAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-INECOAppTests/Pods-INECOAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4ACDBBA7AD1D93DF5575F401 /* Pods-INECOApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INECOApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp.release.xcconfig"; sourceTree = "<group>"; };
+		67BA5C7B2CDAF10256485F80 /* Pods-INECOApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INECOApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A7422579985850131DF44948 /* Pods_INECOAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INECOAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12766669121547BF3526D0E /* Pods-INECOAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INECOAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-INECOAppUITests/Pods-INECOAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0DB2A16E7182012A9910B63 /* Pods_INECOApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INECOApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B109B3D2077A24D00BD2EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3100E92F463A5A5BD54296 /* Pods_INECOApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B109B512077A24D00BD2EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D69D92592FDF31E090EE3F3 /* Pods_INECOAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B109B5C2077A24D00BD2EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57BCF3E7CB0F9B1E30C5ED3 /* Pods_INECOAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5C48ED208B5FCB0018DC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF04806207DC023001B16B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF04807207DC023001B16B5 /* Pods_INECOApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF04819207DC026001B16B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF0481A207DC026001B16B5 /* Pods_INECOApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0482C207DC027001B16B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF0482D207DC027001B16B5 /* Pods_INECOApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0483F207DC027001B16B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF04840207DC027001B16B5 /* Pods_INECOApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B109B372077A24D00BD2EDB = {
+			isa = PBXGroup;
+			children = (
+				2B109B422077A24D00BD2EDB /* INECOApp */,
+				2B109B572077A24D00BD2EDB /* INECOAppTests */,
+				2B109B622077A24D00BD2EDB /* INECOAppUITests */,
+				2B109B412077A24D00BD2EDB /* Products */,
+				C4CA31544CACB7AFF4A93267 /* Pods */,
+				8B9094B2F321A213F95DD6F4 /* Frameworks */,
+				2BF04813207DC024001B16B5 /* INECOApp copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		2B109B412077A24D00BD2EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B109B402077A24D00BD2EDB /* INECOApp.app */,
+				2B109B542077A24D00BD2EDB /* INECOAppTests.xctest */,
+				2B109B5F2077A24D00BD2EDB /* INECOAppUITests.xctest */,
+				2BF04812207DC023001B16B5 /* INECOApp copy.app */,
+				2BF04825207DC026001B16B5 /* INECOApp copy copy.app */,
+				2BF04838207DC027001B16B5 /* INECOApp copy copy copy.app */,
+				2BF0484B207DC027001B16B5 /* INECOApp copy copy copy copy.app */,
+				2B5C48F0208B5FCB0018DC04 /* INECOAppUNITTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B109B422077A24D00BD2EDB /* INECOApp */ = {
+			isa = PBXGroup;
+			children = (
+				2B62B4FF20B865FD00F238EB /* INFViewController.swift */,
+				2BE648C220BAEF2000F6C70B /* webViewController.swift */,
+				2B56868620B954A300E08EFF /* Str */,
+				2B109B432077A24D00BD2EDB /* AppDelegate.swift */,
+				2BA72A80208AF60E00520BF5 /* ViewController.swift */,
+				2B109B4C2077A24D00BD2EDB /* LaunchScreen.storyboard */,
+				2B109B472077A24D00BD2EDB /* Main.storyboard */,
+				2BE648C020BADD8C00F6C70B /* HotTourDetailViewController.swift */,
+				2BA06BED20B699F400E1C0E0 /* HotTourTableViewCell.swift */,
+				2BA06BEF20B69B6900E1C0E0 /* HotTourTableViewController.swift */,
+				2B55FAC92092E289009297BC /* REALM.swift */,
+				2B109B4A2077A24D00BD2EDB /* Assets.xcassets */,
+				2B109B4F2077A24D00BD2EDB /* Info.plist */,
+			);
+			path = INECOApp;
+			sourceTree = "<group>";
+		};
+		2B109B572077A24D00BD2EDB /* INECOAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B109B582077A24D00BD2EDB /* INECOAppests.swift */,
+				2B109B5A2077A24D00BD2EDB /* Info.plist */,
+			);
+			path = INECOAppTests;
+			sourceTree = "<group>";
+		};
+		2B109B622077A24D00BD2EDB /* INECOAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B109B632077A24D00BD2EDB /* INECOAppUITests.swift */,
+				2B109B652077A24D00BD2EDB /* Info.plist */,
+			);
+			path = INECOAppUITests;
+			sourceTree = "<group>";
+		};
+		2B56868620B954A300E08EFF /* Str */ = {
+			isa = PBXGroup;
+			children = (
+				2B9D959F20B93A36004441FB /* DataTableViewCell.swift */,
+				2B9D95A120B93A3E004441FB /* DetailViewController.swift */,
+				2B9D959D20B93A2E004441FB /* STRViewController.swift */,
+			);
+			path = Str;
+			sourceTree = "<group>";
+		};
+		8B9094B2F321A213F95DD6F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB2A16E7182012A9910B63 /* Pods_INECOApp.framework */,
+				A7422579985850131DF44948 /* Pods_INECOAppTests.framework */,
+				2A8D98F670765504A5CE49C4 /* Pods_INECOAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4CA31544CACB7AFF4A93267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67BA5C7B2CDAF10256485F80 /* Pods-INECOApp.debug.xcconfig */,
+				4ACDBBA7AD1D93DF5575F401 /* Pods-INECOApp.release.xcconfig */,
+				3BD4BB6901EED4C0957E3C47 /* Pods-INECOAppTests.release.xcconfig */,
+				069B0E8BF4A756656C04A47B /* Pods-INECOAppTests.debug.xcconfig */,
+				37EEE1F55286BAC84144F556 /* Pods-INECOAppUITests.debug.xcconfig */,
+				D12766669121547BF3526D0E /* Pods-INECOAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B109B3F2077A24D00BD2EDB /* INECOApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B109B682077A24D00BD2EDB /* Build configuration list for PBXNativeTarget "INECOApp" */;
+			buildPhases = (
+				002E617597CA063027A66898 /* [CP] Check Pods Manifest.lock */,
+				2B109B3C2077A24D00BD2EDB /* Sources */,
+				2B109B3D2077A24D00BD2EDB /* Frameworks */,
+				2B109B3E2077A24D00BD2EDB /* Resources */,
+				2B7F1338207D091B00D9D126 /* Embed Frameworks */,
+				2B7F1339207D095C00D9D126 /* Run Script */,
+				7355D88F2D3CFA6BB89F903A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INECOApp;
+			productName = MyAppSwift;
+			productReference = 2B109B402077A24D00BD2EDB /* INECOApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B109B532077A24D00BD2EDB /* INECOAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B109B6B2077A24D00BD2EDB /* Build configuration list for PBXNativeTarget "INECOAppTests" */;
+			buildPhases = (
+				633814FE52EE39D00C6012B8 /* [CP] Check Pods Manifest.lock */,
+				2B109B502077A24D00BD2EDB /* Sources */,
+				2B109B512077A24D00BD2EDB /* Frameworks */,
+				2B109B522077A24D00BD2EDB /* Resources */,
+				F2A196A0D9556EA7F582D785 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B109B562077A24D00BD2EDB /* PBXTargetDependency */,
+			);
+			name = INECOAppTests;
+			productName = MyAppSwiftTests;
+			productReference = 2B109B542077A24D00BD2EDB /* INECOAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B109B5E2077A24D00BD2EDB /* INECOAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B109B6E2077A24D00BD2EDB /* Build configuration list for PBXNativeTarget "INECOAppUITests" */;
+			buildPhases = (
+				9FFEF97F54AA737434953F77 /* [CP] Check Pods Manifest.lock */,
+				2B109B5B2077A24D00BD2EDB /* Sources */,
+				2B109B5C2077A24D00BD2EDB /* Frameworks */,
+				2B109B5D2077A24D00BD2EDB /* Resources */,
+				E154B7D261FF07DE2300FDA4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B109B612077A24D00BD2EDB /* PBXTargetDependency */,
+			);
+			name = INECOAppUITests;
+			productName = MyAppSwiftUITests;
+			productReference = 2B109B5F2077A24D00BD2EDB /* INECOAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2B5C48EF208B5FCB0018DC04 /* INECOAppUNITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5C48F7208B5FCB0018DC04 /* Build configuration list for PBXNativeTarget "INECOAppUNITTests" */;
+			buildPhases = (
+				2B5C48EC208B5FCB0018DC04 /* Sources */,
+				2B5C48ED208B5FCB0018DC04 /* Frameworks */,
+				2B5C48EE208B5FCB0018DC04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5C48F6208B5FCB0018DC04 /* PBXTargetDependency */,
+			);
+			name = INECOAppUNITTests;
+			productName = INECOAppUNITTests;
+			productReference = 2B5C48F0208B5FCB0018DC04 /* INECOAppUNITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BF04801207DC023001B16B5 /* INECOApp copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF0480F207DC023001B16B5 /* Build configuration list for PBXNativeTarget "INECOApp copy" */;
+			buildPhases = (
+				2BF04802207DC023001B16B5 /* [CP] Check Pods Manifest.lock */,
+				2BF04803207DC023001B16B5 /* Sources */,
+				2BF04806207DC023001B16B5 /* Frameworks */,
+				2BF04808207DC023001B16B5 /* Resources */,
+				2BF0480C207DC023001B16B5 /* Embed Frameworks */,
+				2BF0480D207DC023001B16B5 /* Run Script */,
+				2BF0480E207DC023001B16B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "INECOApp copy";
+			productName = MyAppSwift;
+			productReference = 2BF04812207DC023001B16B5 /* INECOApp copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BF04814207DC026001B16B5 /* INECOApp copy copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF04822207DC026001B16B5 /* Build configuration list for PBXNativeTarget "INECOApp copy copy" */;
+			buildPhases = (
+				2BF04815207DC026001B16B5 /* [CP] Check Pods Manifest.lock */,
+				2BF04816207DC026001B16B5 /* Sources */,
+				2BF04819207DC026001B16B5 /* Frameworks */,
+				2BF0481B207DC026001B16B5 /* Resources */,
+				2BF0481F207DC026001B16B5 /* Embed Frameworks */,
+				2BF04820207DC026001B16B5 /* Run Script */,
+				2BF04821207DC026001B16B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "INECOApp copy copy";
+			productName = MyAppSwift;
+			productReference = 2BF04825207DC026001B16B5 /* INECOApp copy copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BF04827207DC027001B16B5 /* INECOApp copy copy copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF04835207DC027001B16B5 /* Build configuration list for PBXNativeTarget "INECOApp copy copy copy" */;
+			buildPhases = (
+				2BF04828207DC027001B16B5 /* [CP] Check Pods Manifest.lock */,
+				2BF04829207DC027001B16B5 /* Sources */,
+				2BF0482C207DC027001B16B5 /* Frameworks */,
+				2BF0482E207DC027001B16B5 /* Resources */,
+				2BF04832207DC027001B16B5 /* Embed Frameworks */,
+				2BF04833207DC027001B16B5 /* Run Script */,
+				2BF04834207DC027001B16B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "INECOApp copy copy copy";
+			productName = MyAppSwift;
+			productReference = 2BF04838207DC027001B16B5 /* INECOApp copy copy copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BF0483A207DC027001B16B5 /* INECOApp copy copy copy copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF04848207DC027001B16B5 /* Build configuration list for PBXNativeTarget "INECOApp copy copy copy copy" */;
+			buildPhases = (
+				2BF0483B207DC027001B16B5 /* [CP] Check Pods Manifest.lock */,
+				2BF0483C207DC027001B16B5 /* Sources */,
+				2BF0483F207DC027001B16B5 /* Frameworks */,
+				2BF04841207DC027001B16B5 /* Resources */,
+				2BF04845207DC027001B16B5 /* Embed Frameworks */,
+				2BF04846207DC027001B16B5 /* Run Script */,
+				2BF04847207DC027001B16B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "INECOApp copy copy copy copy";
+			productName = MyAppSwift;
+			productReference = 2BF0484B207DC027001B16B5 /* INECOApp copy copy copy copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B109B382077A24D00BD2EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mikhail;
+				TargetAttributes = {
+					2B109B3F2077A24D00BD2EDB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2B109B532077A24D00BD2EDB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B109B3F2077A24D00BD2EDB;
+					};
+					2B109B5E2077A24D00BD2EDB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B109B3F2077A24D00BD2EDB;
+					};
+					2B5C48EF208B5FCB0018DC04 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B109B3F2077A24D00BD2EDB;
+					};
+					2BF04801207DC023001B16B5 = {
+						ProvisioningStyle = Automatic;
+					};
+					2BF04814207DC026001B16B5 = {
+						ProvisioningStyle = Automatic;
+					};
+					2BF04827207DC027001B16B5 = {
+						ProvisioningStyle = Automatic;
+					};
+					2BF0483A207DC027001B16B5 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2B109B3B2077A24D00BD2EDB /* Build configuration list for PBXProject "MyAppSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B109B372077A24D00BD2EDB;
+			productRefGroup = 2B109B412077A24D00BD2EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B109B3F2077A24D00BD2EDB /* INECOApp */,
+				2B109B532077A24D00BD2EDB /* INECOAppTests */,
+				2B109B5E2077A24D00BD2EDB /* INECOAppUITests */,
+				2BF04801207DC023001B16B5 /* INECOApp copy */,
+				2BF04814207DC026001B16B5 /* INECOApp copy copy */,
+				2BF04827207DC027001B16B5 /* INECOApp copy copy copy */,
+				2BF0483A207DC027001B16B5 /* INECOApp copy copy copy copy */,
+				2B5C48EF208B5FCB0018DC04 /* INECOAppUNITTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B109B3E2077A24D00BD2EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B109B4E2077A24D00BD2EDB /* LaunchScreen.storyboard in Resources */,
+				2B109B4B2077A24D00BD2EDB /* Assets.xcassets in Resources */,
+				2B109B492077A24D00BD2EDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B109B522077A24D00BD2EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B109B5D2077A24D00BD2EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5C48EE208B5FCB0018DC04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF04808207DC023001B16B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0481B207DC026001B16B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0482E207DC027001B16B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF04841207DC027001B16B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002E617597CA063027A66898 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INECOApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7F1339207D095C00D9D126 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		2BF04802207DC023001B16B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INECOApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF0480D207DC023001B16B5 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		2BF0480E207DC023001B16B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF04815207DC026001B16B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INECOApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF04820207DC026001B16B5 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		2BF04821207DC026001B16B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF04828207DC027001B16B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INECOApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF04833207DC027001B16B5 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		2BF04834207DC027001B16B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF0483B207DC027001B16B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INECOApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF04846207DC027001B16B5 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		2BF04847207DC027001B16B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633814FE52EE39D00C6012B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INECOAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7355D88F2D3CFA6BB89F903A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INECOApp/Pods-INECOApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFEF97F54AA737434953F77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INECOAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E154B7D261FF07DE2300FDA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-INECOAppUITests/Pods-INECOAppUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INECOAppUITests/Pods-INECOAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A196A0D9556EA7F582D785 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-INECOAppTests/Pods-INECOAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INECOAppTests/Pods-INECOAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B109B3C2077A24D00BD2EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B109B442077A24D00BD2EDB /* AppDelegate.swift in Sources */,
+				2BA72A81208AF60E00520BF5 /* ViewController.swift in Sources */,
+				2BA06BEE20B699F400E1C0E0 /* HotTourTableViewCell.swift in Sources */,
+				2B9D95A020B93A36004441FB /* DataTableViewCell.swift in Sources */,
+				2BA06BF020B69B6900E1C0E0 /* HotTourTableViewController.swift in Sources */,
+				2BE648C120BADD8C00F6C70B /* HotTourDetailViewController.swift in Sources */,
+				2B62B50020B865FD00F238EB /* INFViewController.swift in Sources */,
+				2B9D95A220B93A3E004441FB /* DetailViewController.swift in Sources */,
+				2B9D959E20B93A2E004441FB /* STRViewController.swift in Sources */,
+				2B92C6A620B58E9400302CC3 /* REALM.swift in Sources */,
+				2BE648C320BAEF2000F6C70B /* webViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B109B502077A24D00BD2EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B109B592077A24D00BD2EDB /* INECOAppests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B109B5B2077A24D00BD2EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B109B642077A24D00BD2EDB /* INECOAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5C48EC208B5FCB0018DC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF04803207DC023001B16B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF04816207DC026001B16B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF04829207DC027001B16B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0483C207DC027001B16B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B109B562077A24D00BD2EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B109B3F2077A24D00BD2EDB /* INECOApp */;
+			targetProxy = 2B109B552077A24D00BD2EDB /* PBXContainerItemProxy */;
+		};
+		2B109B612077A24D00BD2EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B109B3F2077A24D00BD2EDB /* INECOApp */;
+			targetProxy = 2B109B602077A24D00BD2EDB /* PBXContainerItemProxy */;
+		};
+		2B5C48F6208B5FCB0018DC04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B109B3F2077A24D00BD2EDB /* INECOApp */;
+			targetProxy = 2B5C48F5208B5FCB0018DC04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B109B472077A24D00BD2EDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B109B482077A24D00BD2EDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B109B4C2077A24D00BD2EDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B109B4D2077A24D00BD2EDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B109B662077A24D00BD2EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B109B672077A24D00BD2EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B109B692077A24D00BD2EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BA5C7B2CDAF10256485F80 /* Pods-INECOApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDJ4HP3ZQJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/INECOApp",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/INECOApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mytest8431;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B109B6A2077A24D00BD2EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACDBBA7AD1D93DF5575F401 /* Pods-INECOApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDJ4HP3ZQJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/INECOApp",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/INECOApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mytest8431;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B109B6C2077A24D00BD2EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069B0E8BF4A756656C04A47B /* Pods-INECOAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyAppSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyAppSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/INECOApp.app/INECOApp";
+			};
+			name = Debug;
+		};
+		2B109B6D2077A24D00BD2EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD4BB6901EED4C0957E3C47 /* Pods-INECOAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyAppSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyAppSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/INECOApp.app/INECOApp";
+			};
+			name = Release;
+		};
+		2B109B6F2077A24D00BD2EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EEE1F55286BAC84144F556 /* Pods-INECOAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyAppSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyAppSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyAppSwift;
+			};
+			name = Debug;
+		};
+		2B109B702077A24D00BD2EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12766669121547BF3526D0E /* Pods-INECOAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyAppSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyAppSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyAppSwift;
+			};
+			name = Release;
+		};
+		2B5C48F8208B5FCB0018DC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = INECOAppUNITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.INECOAppUNITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/INECOApp.app/INECOApp";
+			};
+			name = Debug;
+		};
+		2B5C48F9208B5FCB0018DC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = INECOAppUNITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.INECOAppUNITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/INECOApp.app/INECOApp";
+			};
+			name = Release;
+		};
+		2BF04810207DC023001B16B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BA5C7B2CDAF10256485F80 /* Pods-INECOApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/INECOApp",
+				);
+				INFOPLIST_FILE = "INECOApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.INECOApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BF04811207DC023001B16B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACDBBA7AD1D93DF5575F401 /* Pods-INECOApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/INECOApp",
+				);
+				INFOPLIST_FILE = "INECOApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.INECOApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BF04823207DC026001B16B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BA5C7B2CDAF10256485F80 /* Pods-INECOApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/INECOApp",
+				);
+				INFOPLIST_FILE = "INECOApp copy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.INECOApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BF04824207DC026001B16B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACDBBA7AD1D93DF5575F401 /* Pods-INECOApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/INECOApp",
+				);
+				INFOPLIST_FILE = "INECOApp copy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.INECOApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BF04836207DC027001B16B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BA5C7B2CDAF10256485F80 /* Pods-INECOApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/INECOApp",
+				);
+				INFOPLIST_FILE = "INECOApp copy copy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.INECOApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BF04837207DC027001B16B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACDBBA7AD1D93DF5575F401 /* Pods-INECOApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/INECOApp",
+				);
+				INFOPLIST_FILE = "INECOApp copy copy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.INECOApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BF04849207DC027001B16B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BA5C7B2CDAF10256485F80 /* Pods-INECOApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDJ4HP3ZQJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/INECOApp",
+				);
+				INFOPLIST_FILE = "INECOApp copy copy copy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.INECOApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BF0484A207DC027001B16B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACDBBA7AD1D93DF5575F401 /* Pods-INECOApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDJ4HP3ZQJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/INECOApp",
+				);
+				INFOPLIST_FILE = "INECOApp copy copy copy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.INECOApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B109B3B2077A24D00BD2EDB /* Build configuration list for PBXProject "MyAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B109B662077A24D00BD2EDB /* Debug */,
+				2B109B672077A24D00BD2EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B109B682077A24D00BD2EDB /* Build configuration list for PBXNativeTarget "INECOApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B109B692077A24D00BD2EDB /* Debug */,
+				2B109B6A2077A24D00BD2EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B109B6B2077A24D00BD2EDB /* Build configuration list for PBXNativeTarget "INECOAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B109B6C2077A24D00BD2EDB /* Debug */,
+				2B109B6D2077A24D00BD2EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B109B6E2077A24D00BD2EDB /* Build configuration list for PBXNativeTarget "INECOAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B109B6F2077A24D00BD2EDB /* Debug */,
+				2B109B702077A24D00BD2EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5C48F7208B5FCB0018DC04 /* Build configuration list for PBXNativeTarget "INECOAppUNITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5C48F8208B5FCB0018DC04 /* Debug */,
+				2B5C48F9208B5FCB0018DC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF0480F207DC023001B16B5 /* Build configuration list for PBXNativeTarget "INECOApp copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF04810207DC023001B16B5 /* Debug */,
+				2BF04811207DC023001B16B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF04822207DC026001B16B5 /* Build configuration list for PBXNativeTarget "INECOApp copy copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF04823207DC026001B16B5 /* Debug */,
+				2BF04824207DC026001B16B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF04835207DC027001B16B5 /* Build configuration list for PBXNativeTarget "INECOApp copy copy copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF04836207DC027001B16B5 /* Debug */,
+				2BF04837207DC027001B16B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF04848207DC027001B16B5 /* Build configuration list for PBXNativeTarget "INECOApp copy copy copy copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF04849207DC027001B16B5 /* Debug */,
+				2BF0484A207DC027001B16B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B109B382077A24D00BD2EDB /* Project object */;
+}
